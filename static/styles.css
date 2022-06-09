@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pushster&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+}
+
+
+
+
+header{
+    background-color:  #00203F ;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+
+.logo {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: none;
+    color: #ADEFD1;
+
+}
+
+.navigation a{
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: 20px;
+    text-decoration: none;
+    color:  #ADEFD1 ;
+    padding-left: 30px;
+    font: 900;
+
+}
+
+.navigation a:hover{
+    color: #1bc5f0;
+    
+}
+
+section {
+    padding: 100px 200px;
+}
+
+
+.Main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    padding: auto;
+    background-color: #ADEFD1 ;
+}
+
+
